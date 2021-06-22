@@ -3,7 +3,7 @@ module.exports = {
     title: `Beebah Cakes`,
     author: `Omotagoon Habibah`,
     description: `A simple e-commerce shop using Gatsby and Snipcart.`,
-    siteUrl: `www.beebahcakes.netlify.com`,
+    siteUrl: `https://beebahcakes.netlify.app/`,
   },
   plugins: [
     {
