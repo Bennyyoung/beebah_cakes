@@ -69,11 +69,11 @@ class Item extends React.Component {
     }).join('|')
   }
 
-   // calculate price based on option selected for display on item page
+  // calculate price based on option selected for display on item page
   updatePrice = (basePrice, values) => {
     const selectedOption = values.find(option => option.name === this.state.selected)
     return (basePrice + selectedOption.priceChange).toFixed(2)
-    
+
   }
 
   render() {

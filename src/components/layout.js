@@ -71,27 +71,27 @@ class Layout extends React.Component {
             <FooterStyled>
               <div style={{ width: '35%' }}>
                 <ul style={{ paddingBottom: '7px' }}>
-                  <a href="https://www.instagram.com">
-                    <img src="https://img.icons8.com/color/24/000000/instagram-new.png" />
-                  </a>
-                  <a href="https://web.facebook.com">
-                    <img src="https://img.icons8.com/fluent/24/000000/facebook-new.png" />
-                  </a>
-                  <a href="https://twitter.com">
-                    <img src="https://img.icons8.com/fluent/24/000000/twitter.png" />
-                  </a>
-                  <a href="https://youtube.com">
-                    <img src="https://img.icons8.com/color/24/000000/youtube.png" />
-                  </a>
+                  <ExternalLink href="https://www.instagram.com">
+                    <img src="https://img.icons8.com/color/24/000000/instagram-new.png" alt="instagram handle" />
+                  </ExternalLink>
+                  <ExternalLink href="https://web.facebook.com">
+                    <img src="https://img.icons8.com/fluent/24/000000/facebook-new.png" alt="facebook account" />
+                  </ExternalLink>
+                  <ExternalLink href="https://twitter.com">
+                    <img src="https://img.icons8.com/fluent/24/000000/twitter.png" alt="twitter account" />
+                  </ExternalLink>
+                  <ExternalLink href="https://youtube.com">
+                    <img src="https://img.icons8.com/color/24/000000/youtube.png" alt="youtube account" />
+                  </ExternalLink>
                 </ul>
               </div>
               <div style={{ width: '90.3%', textAlign: 'center', paddingBottom: '10px' }}>
                 <div>
-                  <strong><img src="https://img.icons8.com/color/24/000000/home.png" /></strong> No 7 IMO Close Shell Estate Edjeba Warri Delta State.<br />
+                  <strong><img src="https://img.icons8.com/color/24/000000/home.png" alt="address_icon" /></strong> No 7 IMO Close Shell Estate Edjeba Warri Delta State.<br />
                 </div>
 
                 <div>
-                  <strong><img src="https://img.icons8.com/color/24/000000/phone.png" /></strong> 09016950777
+                  <strong><img src="https://img.icons8.com/color/24/000000/phone.png" alt="phone_icon" /></strong> 09016950777
 
                 </div>
               </div>
