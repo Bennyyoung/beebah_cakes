@@ -23,11 +23,9 @@ const FooterStyled = styled.footer`
   width: 100%;
   padding: 20px;
   text-align: right;
-  background-color: 'blue';
 
   @media (max-width: 600px) {
     text-align: center;
-  background-color: 'blue';
 
   }
 `
@@ -83,7 +81,7 @@ class Layout extends React.Component {
                     <img src="https://img.icons8.com/fluent/24/000000/twitter.png" />
                   </a>
                   <a href="https://youtube.com">
-                  <img src="https://img.icons8.com/color/24/000000/youtube.png"/>
+                    <img src="https://img.icons8.com/color/24/000000/youtube.png" />
                   </a>
                 </ul>
               </div>
