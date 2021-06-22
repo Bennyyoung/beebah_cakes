@@ -23,9 +23,12 @@ const FooterStyled = styled.footer`
   width: 100%;
   padding: 20px;
   text-align: right;
+  background-color: 'blue';
 
   @media (max-width: 600px) {
     text-align: center;
+  background-color: 'blue';
+
   }
 `
 const ExternalLink = styled.a`
@@ -68,9 +71,38 @@ class Layout extends React.Component {
             {header}
             <MainSection>{children}</MainSection>
             <FooterStyled>
-              <strong>Beebah Cakes
-           - Made by <ExternalLink href="https://www.bloomhubng.com/" target="_blank" rel="noopener noreferrer">Bloomhub Limited</ExternalLink>
-              </strong>
+              <div style={{ width: '35%' }}>
+                <ul style={{ paddingBottom: '7px' }}>
+                  <a href="https://www.instagram.com">
+                    <img src="https://img.icons8.com/color/24/000000/instagram-new.png" />
+                  </a>
+                  <a href="https://web.facebook.com">
+                    <img src="https://img.icons8.com/fluent/24/000000/facebook-new.png" />
+                  </a>
+                  <a href="https://twitter.com">
+                    <img src="https://img.icons8.com/fluent/24/000000/twitter.png" />
+                  </a>
+                  <a href="https://youtube.com">
+                  <img src="https://img.icons8.com/color/24/000000/youtube.png"/>
+                  </a>
+                </ul>
+              </div>
+              <div style={{ width: '90.3%', textAlign: 'center', paddingBottom: '10px' }}>
+                <div>
+                  <strong><img src="https://img.icons8.com/color/24/000000/home.png" /></strong> No 7 IMO Close Shell Estate Edjeba Warri Delta State.<br />
+                </div>
+
+                <div>
+                  <strong><img src="https://img.icons8.com/color/24/000000/phone.png" /></strong> 09016950777
+
+                </div>
+              </div>
+              <div>
+                <strong>Beebah Cakes
+                  - Made by <ExternalLink href="https://www.bloomhubng.com/" target="_blank" rel="noopener noreferrer">Bloomhub Limited</ExternalLink>
+                </strong>
+
+              </div>
             </FooterStyled>
           </PageWrapper>
         </>
